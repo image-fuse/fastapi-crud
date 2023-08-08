@@ -1,5 +1,5 @@
 import sqlite3
-from app.models import Employee
+from models import Employee
 
 conn = sqlite3.connect("data.db")
 cursor = conn.cursor()

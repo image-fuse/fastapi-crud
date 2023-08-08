@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
 
-from app.models import Employee
-import app.database as database
+from models import Employee
+import database as database
 app = FastAPI()
 
 @app.on_event("startup")
